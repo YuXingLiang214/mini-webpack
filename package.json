@@ -1,0 +1,12 @@
+{
+  "name": "mini-webpack",
+  "version": "1.0.0",
+  "description": "learn webpack",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./bin/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
