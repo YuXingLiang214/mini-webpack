@@ -4,9 +4,15 @@
   "description": "learn webpack",
   "main": "index.js",
   "scripts": {
-    "start": "node ./bin/index.js"
+    "build": "node ./bundle.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@babel/parser": "^7.25.3",
+    "@babel/preset-env": "^7.25.3",
+    "@babel/traverse": "^7.25.3"
+  }
 }
